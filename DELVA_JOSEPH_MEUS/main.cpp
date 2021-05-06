@@ -75,7 +75,7 @@ int main()
             {
             case 1:
                 resultat = binary_to_decimal(n);
-                cout<<"L'equivalent decimal de "<<n<<" est "<<resultat<<endl;
+                cout<<"L'equivalent decimal de "<<n<<" est "<<result<<endl;
                 break;
             case 2:
                 result = binary_to_octal(n);
@@ -83,7 +83,7 @@ int main()
                 break;
             case 3:
                 result = binary_to_hexa(n);
-                cout<<"L'equivalent hexadecimal de "<<n<<" est "<<resultat<<endl;
+                cout<<"L'equivalent hexadecimal de "<<n<<" est "<<result<<endl;
                 break;
             }
             break;
@@ -104,15 +104,15 @@ int main()
             {
             case 1:
                 result = hexa_to_octal(n);
-                cout<<"L'equivalent octal de "<<n<<" est "<<resultat<<endl;
+                cout<<"L'equivalent octal de "<<n<<" est "<<result<<endl;
                 break;
             case 2:
                 result = hexa_to_binary(n);
-                cout<<"L'equivalent binaire de "<<n<<" est "<<resultat<<endl;
+                cout<<"L'equivalent binaire de "<<n<<" est "<<result<<endl;
                 break;
             case 3:
                 result = hexa_to_decimal(n);
-                cout<<"L'equivalent hexadecimal de "<<n<<" est "<<resultat<<endl;
+                cout<<"L'equivalent hexadecimal de "<<n<<" est "<<result<<endl;
                 break;
             }
             break;
